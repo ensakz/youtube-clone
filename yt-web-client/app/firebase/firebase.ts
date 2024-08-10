@@ -5,16 +5,10 @@ import { getFunctions } from "firebase/functions";
 
 
 
-// Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "",
-  authDomain: "",
-  projectId: "",
-  appId: ""
-};
+const config = require('../../config').firebase;
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
+const app = initializeApp(config);
 
 const auth = getAuth(app);
 
