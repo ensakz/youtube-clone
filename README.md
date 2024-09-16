@@ -1,1 +1,2 @@
-# youtube-clone
+# Video Sharing Platform
+A full-stack web application for sharing and managing videos, built with TypeScript, Next.js, Express.js, Docker, and Firebase. This platform allows users to upload, transcode, and view videos while providing authentication and metadata management. Leveraging Google Cloud services for storage and processing, this application aims to deliver a seamless user experience for video sharing.
